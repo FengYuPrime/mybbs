@@ -1,0 +1,132 @@
+#header{
+    /* float: left; */
+    background: rgba(255, 255, 255, 0.5);
+    height: 100px;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    /* overflow: hidden; */
+
+}
+#logo{
+    float: left;
+    width: 200px;
+    height: 100%;
+    margin-right: 20px;
+}
+#niv{
+    float: left;
+    width: 300px;
+    height: 100%;
+    font-size: 30px;
+}
+#niv ul{
+    display: block;
+    float: left;
+}
+#niv ul li{
+    display: block;
+    float: left;
+    margin-left: 20px;
+    margin-top: 12px;
+    /* line-height: 100px;  */
+}
+#profiles{
+    float: right;
+    width: 300px;
+    height: 100%;
+    font-size: 30px;
+    text-align: center;
+    padding-right: 37px;
+    box-sizing: border-box;
+    /* padding-left: 30px; */
+}
+#profiles ul{
+    display: block;
+
+}
+#profiles ul li{
+    display: block;
+    float: right;
+    margin-left: 20px;
+    margin-top: 12px;
+    /* line-height: 100px;  */
+}
+#center{
+    /* background: #ccc;
+     */
+     background: rgba(255, 255, 255, 0.5);
+    overflow: hidden;
+    height: auto;
+    
+}
+#c-top{
+    width: 100%;
+    overflow: hidden;
+    height: 150px;
+    border-top: 1px solid #000;
+}
+
+#top-img{
+    margin-bottom: 30px;
+    text-align: center;
+}
+#top-post{
+    float: left;
+    width: 400px;
+    height: 100%;
+    border-right: 1px solid #000;
+}
+#top-post li{
+    margin-top: 10px;
+    margin-left: 20px;
+}
+#category{
+    float: right;
+    width: 400px;
+    
+}
+#recent{
+    border-top: 1px solid #000;
+    margin-bottom: 50px;
+}
+#recent ul li{
+    margin-top: 10px;
+    margin-left: 20px;
+    /* padding-right: 30px; */
+}
+#recent .post-time{
+    float: right;
+    margin-right: 50px;
+}
+#recent .post-num{
+    float: right;
+    margin-right: 10px;
+}
+#footer{
+    background: chocolate;
+    height: 200px;
+    padding:30px;
+    box-sizing: border-box;
+}
+#footer li{
+    margin-top: 10px;
+    margin-left: 50px;
+}
+*{
+    /* text-align: center; */
+    margin: 0 0;
+    padding: 0 0;
+    list-style: none;
+}
+#box{
+    /* text-align: center; */
+    margin: 0 auto;
+    width: 850px;
+    height:auto;
+}
+body{
+    background: url("./请和我交朋友吧.png") center center no-repeat;
+    /* filter: blur(8px); */
+    backdrop-filter:blur(2px);
+}
